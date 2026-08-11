@@ -78,7 +78,7 @@ const translations = {
             modularity: "Modularidade",
             modularity_info: "Cada instituição activa apenas os módulos de que necessita.",
             modularity_description: "Não pagas por funcionalidades que não usas. Não és obrigado a implementar tudo de uma vez.",
-            payment: "✓ Paga só o que usa",
+            payment: "✓ Usa somente o que precisa",
             scalability: "Escalabilidade",
             scalability_info: "A mesma plataforma que serve um pequeno centro de formação profissional",
             scalability_description: "pode servir um sistema nacional de educação pública. Cresce contigo.",
@@ -86,7 +86,7 @@ const translations = {
             security: "Segurança",
             security_info: "Controlo granular de permissões,",
             security_description: "dados sob o teu controlo total, e arquitectura preparada para ambientes locais e na nuvem.",
-            your_control: "✓ Os teus dados, o teu controlo"
+            your_control: "✓ Os seus dados ao seu controlo"
         },
         interface: {
             interface: "Interface Real",
@@ -290,7 +290,7 @@ const translations = {
             security: "Security",
             security_info: "Granular control of permissions,",
             security_description: "Data under your complete control, and an architecture prepared for both local and cloud environments.",
-            your_control: "✓ Your data, your control"
+            your_control: "✓ Your data in your control"
         },
         interface: {
             interface: "Real Interface",
