@@ -1,6 +1,6 @@
 /*!
 * SAGE Edu - v1.2 
-* Copyright 2025-2026 Familia Pequenino Capingala - FPC
+* Copyright 2025-2026 Família Pequenino Capingala - FPC
 * Developer Zacarias Capingala - zacariasjuliano@gmail.com
 * Licensed under MIT (https://github.com/zacariasjuliano/sage-edu/blob/main/LICENSE)
 */
