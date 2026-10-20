@@ -4,6 +4,19 @@ All changes made in **SAGE Education** project will be listed in this file.
 The format as follows the recomendations of [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/). And Semantic Versioning
 
 
+## [2.0.0] - 2026-10-20
+### Changed
+- Update to Tryton version 8.0
+- Translated Source Code from Portuguese to English
+- User permissions
+- Menu module 
+- Database fields
+- Report fields
+
+### Added
+- Added tryton web-user module
+
+
 ## [1.4.0] - 2026-04-11
 ### Changed
 - Standardizing with the Tryton version 7.0.0
@@ -34,11 +47,11 @@ The format as follows the recomendations of [Keep a Changelog](https://keepachan
 - Added website
 - Added tryton dashboard module
 
+
 ## [1.1.0] - 2025-12-01
 ### Added
 - Added support for party-avatar 
 - Added matriculation and confirmation
-
 
 ### Changed
 - Update README 

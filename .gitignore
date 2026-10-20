@@ -8,3 +8,4 @@ scripts/sage_edu-v1.1-install.sh
 
 backend/*
 docs/*
+website/*
