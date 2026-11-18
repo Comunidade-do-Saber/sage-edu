@@ -15,6 +15,7 @@ The format as follows the recomendations of [Keep a Changelog](https://keepachan
 
 ### Added
 - Added tryton web-user module
+- Project guidelines
 
 
 ## [1.4.0] - 2026-04-11

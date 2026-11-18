@@ -36,12 +36,12 @@ as an independent Tryton module.
 
 ```
                      ┌─────────────────────┐
-                     │  Tryton Web Client  │
-                     │       (SAO)         │
+                     │    Tryton Client    │
+                     │(Web,DeskTop,Moblie) │
                      └──────────┬──────────┘
                                 │
                      ┌──────────▼──────────┐
-                     │  Tryton Server      │
+                     │   Tryton Server     │
                      │(trytond + SAGE Edu) │
                      └──────────┬──────────┘
                                 │
@@ -81,12 +81,12 @@ Although SAGE Edu is version 2.0, all modules follow the Tryton version in which
 
 | Module | Package (PyPI) | Description | Repository |
 |---|---|---|---|
-| Akademy Party | `akademy-party` | Extends the Tryton `Party` model as the shared base for students, employees, teachers, and institutions. | [akademy-party](https://github.com/zacariasjuliano/akademy-party) |
-| Akademy Company | `akademy-company` | Manages institutions, companies, employee registration and roles, and student–supervisor relationships. | [akademy-company](https://github.com/zacariasjuliano/akademy-company) |
-| Akademy Classe | `akademy-classe` | Academic structure: levels, areas, courses, classes, schedules, classrooms, teacher/student assignment, and attendance tracking. | [akademy-classe](https://github.com/zacariasjuliano/akademy-classe) |
-| Akademy Classe Evaluation | `akademy-classe-evaluation` | *(description pending — see note below)* | [akademy-classe-evaluation](https://github.com/zacariasjuliano/akademy-classe-evaluation) |
-| Akademy Matriculation | `akademy-matriculation` | Candidate registration, application evaluation, enrollment, and internal/external student transfers. | [akademy-matriculation](https://github.com/zacariasjuliano/akademy-matriculation) |
-| Akademy Matriculation Confirmation | `akademy-matriculation-confirmation` | Wizard-based, auditable workflow for confirming and modifying enrollments. | [akademy-matriculation-confirmation](https://github.com/zacariasjuliano/akademy-matriculation-confirmation) |
+| Akademy Party | `akademy-party` | Extends the Tryton `Party` model as the shared base for students, employees, teachers, and institutions. | [akademy-party](https://github.com/comunidade-do-saber/akademy-party) |
+| Akademy Company | `akademy-company` | Manages institutions, companies, employee registration and roles, and student–supervisor relationships. | [akademy-company](https://github.com/comunidade-do-saber/akademy-company) |
+| Akademy Classe | `akademy-classe` | Academic structure: levels, areas, courses, classes, schedules, classrooms, teacher/student assignment, and attendance tracking. | [akademy-classe](https://github.com/comunidade-do-saber/akademy-classe) |
+| Akademy Classe Evaluation | `akademy-classe-evaluation` | *(description pending — see note below)* | [akademy-classe-evaluation](https://github.com/comunidade-do-saber/akademy-classe-evaluation) |
+| Akademy Matriculation | `akademy-matriculation` | Candidate registration, application evaluation, enrollment, and internal/external student transfers. | [akademy-matriculation](https://github.com/comunidade-do-saber/akademy-matriculation) |
+| Akademy Matriculation Confirmation | `akademy-matriculation-confirmation` | Wizard-based, auditable workflow for confirming and modifying enrollments. | [akademy-matriculation-confirmation](https://github.com/comunidade-do-saber/akademy-matriculation-confirmation) |
 
 
 
@@ -124,8 +124,8 @@ Because each module is an independent Tryton package, institutions or
 contributors can:
 
 - Activate only the modules relevant to their context.
-- Develop new modules that depend on `akademy-party` /
-  `akademy-company` without modifying core code.
+- Develop new modules that depend on `the existing` without modifying
+  core code.
 - Override or extend existing modules following standard Tryton
   inheritance patterns.
 
@@ -134,6 +134,5 @@ contributors can:
 The following are separate, earlier-stage projects within the same
 ecosystem, not yet integrated as SAGE Education modules:
 
-- **Akademy** — LMS platform (prototype for students and teachers).
-- **DASHIE (IEDASH)** — Information Educational Dashboard platform
-  (prototype).
+- **Akademy** — LMS platform (prototype phase).
+- **DASHIE** — Information Educational Dashboard Platform (prototype phase).

@@ -32,7 +32,7 @@ language, in the case of new translations.
 Maintaining complete and up-to-date documentation is an ongoing
 challenge, and all help is valuable. The official SAGE Edu documentation
 is available on
-[GitHub](https://github.com/zacariasjuliano/sage-edu-docs), where you
+[GitHub](https://github.com/comunidade-do-saber/sage-edu-docs), where you
 can:
 
 * Correct errors
@@ -44,9 +44,9 @@ can:
 
 ### 🧑‍💻 Development Setup
 
-See the [documentation](https://docs.comunidadedosaber.ao/lang/en/guia/dev/) for detailed environment setup.
+See the [documentation](https://docs.sage-edu.comunidadedosaber.ao/lang/en/guia/dev/) for detailed environment setup.
 
-#### 🧩 Coding Guidelines
+#### Coding Guidelines
 
 SAGE Edu follows:
 
@@ -57,12 +57,33 @@ SAGE Edu follows:
 * The project is developed in Python, to obtain a copy of the project:
 
 ```bash
-git clone https://github.com/zacariasjuliano/akademy-party
-git clone https://github.com/zacariasjuliano/akademy-company
-git clone https://github.com/zacariasjuliano/akademy-classe
-git clone https://github.com/zacariasjuliano/akademy-classe-evaluation
-git clone https://github.com/zacariasjuliano/akademy-matriculation
-git clone https://github.com/zacariasjuliano/akademy-matriculation_confirmation
+git clone https://github.com/comunidade-do-saber/akademy-party
+git clone https://github.com/comunidade-do-saber/akademy-company
+git clone https://github.com/comunidade-do-saber/akademy-classe
+git clone https://github.com/comunidade-do-saber/akademy-classe-evaluation
+git clone https://github.com/comunidade-do-saber/akademy-matriculation
+git clone https://github.com/comunidade-do-saber/akademy-matriculation_confirmation
+```
+
+#### Commit Guidelines
+
+To maintain a clear and consistent Git history, from version 2.0 SAGE Edu recommends the Conventional Commits format.
+
+Use the following structure:
+
+```text
+<type>(<scope>): <short description>
+```
+
+Where:
+- type: The category of change.
+- scope: The component affected (optional).
+- short description: A brief explanation of what changed.
+
+For example:
+
+```text
+feat(sage-edu): add support for Tryton 8.0
 ```
 
 #### 🤖 Engineering Philosophy: Comprehension Over Automation
